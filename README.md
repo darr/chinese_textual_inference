@@ -7,7 +7,7 @@ project including chinese corpus build and inferecence model,
 # unzip token_vec_300.zip
 
 ```shell
-cd ./data/
+cd ./model/
 unzip token_vec_300.zip
 ```
 
