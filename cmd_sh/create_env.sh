@@ -73,8 +73,9 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade matplotlib
 #pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade scikit-image
 #pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pandas
 #pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade ipython
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade tensorflow
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade keras
+#pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade tensorflow
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow==1.5.0
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade keras==2.1.4
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade lxml
 #pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade sklearn-crfsuite
 #pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade gensim
