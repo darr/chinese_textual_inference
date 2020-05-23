@@ -3,7 +3,7 @@
 #####################################
 # File name : dataset.py
 # Create date : 2020-05-20 13:22
-# Modified date : 2020-05-20 16:10
+# Modified date : 2020-05-23 23:13
 # Author : DARREN
 # Describe : not set
 # Email : lzygzh@126.com
@@ -87,11 +87,3 @@ def select_best_length(train_file_path, limit_rate):
     print('average_length:', average_length)
     print('max_length:', max_length)
     return max_length
-
-#   datas, word_dict, vocabs = build_data(etc.TRAIN_FILE_PATH, etc.CLASS_DICT)
-#   print("vocabs:%s" % vocabs)
-#   print("word_dict:%s" % word_dict)
-#   write_vocabs_file(vocabs, etc.VOCAB_FILE_PATH)
-#   embedding_matrix = pretrained_embedding.build_embedding_matrix(word_dict, len(vocabs), etc.EMBEDDING_FILE_PATH, etc.EMBEDDING_DIM)
-#   print(type(embedding_matrix))
-#   print(embedding_matrix.shape)

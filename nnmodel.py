@@ -3,7 +3,7 @@
 #####################################
 # File name : nnmodel.py
 # Create date : 2020-05-20 16:12
-# Modified date : 2020-05-20 16:31
+# Modified date : 2020-05-23 23:14
 # Author : DARREN
 # Describe : not set
 # Email : lzygzh@126.com
@@ -11,7 +11,6 @@
 from __future__ import division
 from __future__ import print_function
 
-#from keras.optimizers import Adam
 from keras.optimizers import SGD
 from keras.models import Model
 from keras.layers import Embedding
@@ -45,13 +44,6 @@ class SiameseNetwork:
 
     def bilstm_siamese_model(self):
         '''搭建网络'''
-#       embedding_layer = Embedding(self.VOCAB_SIZE + 1,
-#                                   self.EMBEDDING_DIM,
-#                                   weights=[self.embedding_matrix],
-#                                   input_length=self.TIME_STAMPS,
-#                                   trainable=False,
-#                                   mask_zero=True)
-
         embedding_layer = Embedding(self.vocab_size + 1,
                                     self.embedding_dim,
                                     weights=[self.embedding_matrix],

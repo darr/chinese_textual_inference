@@ -3,7 +3,7 @@
 #####################################
 # File name : etc.py
 # Create date : 2020-05-20 13:23
-# Modified date : 2020-05-20 22:08
+# Modified date : 2020-05-23 23:13
 # Author : DARREN
 # Describe : not set
 # Email : lzygzh@126.com
@@ -13,8 +13,6 @@ from __future__ import print_function
 
 import os
 
-#cur = '/'.join(os.path.abspath(__file__).split('/')[:-1])
-#cur = os.path.dirname(__file__)
 etc_path = os.path.abspath(__file__)
 folder_path = os.path.dirname(etc_path)
 TRAIN_FILE_PATH = "%s/data/train.txt" % folder_path
@@ -40,5 +38,4 @@ BATCH_SIZE = 512
 LIMIT_RATE = 0.95
 NUM_CLASSES = len(CLASS_DICT)
 EMBEDDING_DIM = 300
-#VOCAB_SIZE = len(WORD_DICT)
 

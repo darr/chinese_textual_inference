@@ -3,7 +3,7 @@
 #####################################
 # File name : pretrained_embedding.py
 # Create date : 2020-05-20 15:50
-# Modified date : 2020-05-20 15:59
+# Modified date : 2020-05-23 23:14
 # Author : DARREN
 # Describe : not set
 # Email : lzygzh@126.com
@@ -31,7 +31,6 @@ def load_pretrained_embedding(embedding_file_path):
 def build_embedding_matrix(word_dict, vocab_size, embedding_file_path, embedding_dim):
     '''加载词向量矩阵'''
     embedding_dict = load_pretrained_embedding(embedding_file_path)
-    #embedding_matrix = np.zeros((self.VOCAB_SIZE + 1, self.EMBEDDING_DIM))
     embedding_matrix = np.zeros((vocab_size + 1, embedding_dim))
     for word, i in word_dict.items():
         embedding_vector = embedding_dict.get(word)

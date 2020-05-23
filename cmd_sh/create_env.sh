@@ -2,7 +2,7 @@
 #####################################
 ## File name : create_env.sh
 ## Create date : 2018-11-25 15:54
-## Modified date : 2019-08-24 10:59
+## Modified date : 2020-05-20 14:49
 ## Author : DARREN
 ## Describe : not set
 ## Email : lzygzh@126.com
@@ -77,6 +77,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade matplotlib
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow==1.5.0
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade keras==2.1.4
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade lxml
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple requests
 #pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade sklearn-crfsuite
 #pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade gensim
 
